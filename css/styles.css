@@ -47,7 +47,7 @@ button {
 .nav-item:focus{
     color: #404bbf;
 }
-.nav-act:active {
+.nav-item:active {
     background-color: #404bbf;
     color: #404bbf;
 }
@@ -205,7 +205,7 @@ background-color #404BBF;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.1;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
