@@ -48,7 +48,6 @@ button {
     color: #404bbf;
 }
 .nav-item:active {
-    background-color: #404bbf;
     color: #404bbf;
 }
 .adress {
@@ -90,6 +89,10 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
     background-color:  #4d5ae5;
+}
+button:hover,
+button:focus {
+  background-color: #404BBF;
 }
 .page-btn:hover,
 .page-btn:focus {
