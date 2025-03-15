@@ -2,12 +2,16 @@ body {
     font-family: "Roboto",
         sans-serif;
 background-color: #fff;
+color: #2e2f42;
 }
 ul {
     list-style-type: none;
 }
 a {
     text-decoration: none;
+}
+button {
+    cursor: pointer;
 }
 /*                HEADER                         */
 .header {
@@ -39,7 +43,13 @@ a {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-
+.nav-item:hover{
+    color: #404bbf;
+}
+.nav-act:active {
+    background-color: #404bbf;
+    color: #404bbf;
+}
 .adress {
 
 }
@@ -53,6 +63,9 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+.address-item:hover {
+    color: #404bbf;
 }
 /*                 HEADER                          */
 /*                 Page                          */
@@ -75,6 +88,10 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    background-color:  #4d5ae5;
+}
+.page-btn:hover {
+background-color #404bbf;
 }
 /*                 Page                          */
 /*                 FEATURES                      */
@@ -102,7 +119,6 @@ a {
 }
 
 .team-title {
-    font-weight: 700;
         font-size: 36px;
         line-height: 1.11111;
         letter-spacing: 0.02em;
@@ -144,7 +160,6 @@ a {
 .portfolio {}
 
 .portfolio-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
@@ -166,7 +181,7 @@ a {
 
 .features-link {}
 
-.features-text {font-weight: 400;
+.features-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -193,4 +208,4 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;}
-        /*                 FOOTER                     */
+    /*                 FOOTER                     */
